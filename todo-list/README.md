@@ -14,12 +14,70 @@ A modern, interactive Todo List application built with React and Vite, featuring
 
 ## Preview
 
-![Preview](https://github.com/arsya371/react-todo-list/blob/master/image.jpg?raw=true)
+![https://github.com/arsya371/react-todo-list/blob/master/image.jpg?raw=true](https://github.com/arsya371/react-todo-list/blob/master/todo-list/src/assets/preview.png)
 
-Currently, two official plugins are available:
+## Technology Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 18s
+- Vite
+- CSS3 for styling
+- Local Storage for data persistence
+
+## Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/arsya371/react-todo-list.git
+cd todo-list
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the development server:
+```bash
+npm run dev
+```
+
+4. Open http://localhost:5173 in your browser
+
+## How to Use
+
+1. **Adding a Task:**
+   - Enter task title in the input field
+   - Select at least one tag (HTML, CSS, JavaScript, or React)
+   - Choose the status (Todo, Doing, Done)
+   - Click "Add Task" button
+
+2. **Managing Tasks:**
+   - **Move Tasks:** Drag and drop tasks between columns
+   - **Delete Tasks:** Click the delete icon on any task card
+   - **View Tags:** Each task shows its associated tags with color coding
+
+3. **Tags Color Coding:**
+   - HTML: Orange
+   - CSS: Turquoise
+   - JavaScript: Yellow
+   - React: Light Blue
+
+## Project Structure
+
+```
+todo-list/
+├── src/
+│   ├── components/
+│   │   ├── DropArea.jsx    # Drag and drop functionality
+│   │   ├── Tag.jsx         # Tag component with color coding
+│   │   ├── TaskCard.jsx    # Individual task display
+│   │   ├── TaskColumn.jsx  # Column layout component
+│   │   └── TaskForm.jsx    # Task creation form
+│   ├── assets/            # Icons and images
+│   ├── App.jsx           # Main application component
+│   └── main.jsx         # Application entry point
+└── package.json        # Project dependencies and scripts
+```
 
 ## React Compiler
 
