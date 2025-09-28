@@ -4,7 +4,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 # Preview
 
-![Preview](https://github.com/arsya371/react-todo-list/blob/master/image.jpg?raw=true)
+![https://github.com/arsya371/react-todo-list/blob/master/image.jpg?raw=true](https://github.com/arsya371/react-todo-list/blob/master/todo-list/src/assets/preview.png)
 
 Currently, two official plugins are available:
 
